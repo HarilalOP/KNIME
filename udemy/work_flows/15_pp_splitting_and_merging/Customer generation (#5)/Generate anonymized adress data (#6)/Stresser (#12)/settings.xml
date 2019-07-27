@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="include_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="include">
+<config key="InclList">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="PLZ"/>
+<entry key="1" type="xstring" value="location"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="CFG_PERC_TOSTRESS_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_PERC_TOSTRESS" type="xdouble" value="0.05"/>
+<config key="CFG_PERC_TOSTRESS_COLUMN_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_PERC_TOSTRESS_COLUMN" type="xdouble" value="1.0"/>
+<config key="cfg_seed_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_long_disact"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="cfg_seed" type="xlong" value="1355246286523"/>
+<entry key="cfg_seed_BOOL" type="xboolean" value="true"/>
+<config key="cfg_string_manipulate_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="cfg_string_manipulate" type="xstring" value="mutate"/>
+<config key="cfg_number_manipulate_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="cfg_number_manipulate" type="xstring" value="in range"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.datageneration.stressing.StressNodeFactory2"/>
+<entry key="node-name" type="xstring" value="Stresser"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Data Generation"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.datageneration"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.0.v201711021635"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Data Generation"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.datageneration.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.0.v201711021635"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Stresser"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 6066, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 340, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="bfd3d227-0fca-4069-a00e-eee344911f96"/>
+</config>
+</config>

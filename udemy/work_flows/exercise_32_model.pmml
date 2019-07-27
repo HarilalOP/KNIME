@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="harilal">
+    <Application name="KNIME" version="3.5.3"/>
+  </Header>
+  <DataDictionary numberOfFields="4">
+    <DataField name="ID" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="1.0" rightMargin="16.0"/>
+    </DataField>
+    <DataField name="Height" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="150.0" rightMargin="240.0"/>
+    </DataField>
+    <DataField name="Weight" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="-30.0" rightMargin="90.0"/>
+    </DataField>
+    <DataField name="Sex" optype="categorical" dataType="string">
+      <Value value="f"/>
+      <Value value="m"/>
+    </DataField>
+  </DataDictionary>
+  <TreeModel modelName="DecisionTree" functionName="classification" splitCharacteristic="binarySplit" missingValueStrategy="lastPrediction" noTrueChildStrategy="returnNullPrediction">
+    <MiningSchema>
+      <MiningField name="ID" invalidValueTreatment="asIs"/>
+      <MiningField name="Height" invalidValueTreatment="asIs"/>
+      <MiningField name="Weight" invalidValueTreatment="asIs"/>
+      <MiningField name="Sex" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <Node id="0" score="f" recordCount="16.0">
+      <True/>
+      <ScoreDistribution value="f" recordCount="8.0"/>
+      <ScoreDistribution value="m" recordCount="8.0"/>
+      <Node id="1" score="f" recordCount="10.0">
+        <SimplePredicate field="Weight" operator="lessOrEqual" value="65.5"/>
+        <ScoreDistribution value="f" recordCount="8.0"/>
+        <ScoreDistribution value="m" recordCount="2.0"/>
+        <Node id="2" score="f" recordCount="8.0">
+          <SimplePredicate field="ID" operator="lessOrEqual" value="14.5"/>
+          <ScoreDistribution value="f" recordCount="8.0"/>
+          <ScoreDistribution value="m" recordCount="0.0"/>
+        </Node>
+        <Node id="3" score="m" recordCount="2.0">
+          <SimplePredicate field="ID" operator="greaterThan" value="14.5"/>
+          <ScoreDistribution value="f" recordCount="0.0"/>
+          <ScoreDistribution value="m" recordCount="2.0"/>
+        </Node>
+      </Node>
+      <Node id="4" score="m" recordCount="6.0">
+        <SimplePredicate field="Weight" operator="greaterThan" value="65.5"/>
+        <ScoreDistribution value="f" recordCount="0.0"/>
+        <ScoreDistribution value="m" recordCount="6.0"/>
+      </Node>
+    </Node>
+  </TreeModel>
+</PMML>

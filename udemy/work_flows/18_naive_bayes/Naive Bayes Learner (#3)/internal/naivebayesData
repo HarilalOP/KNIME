@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+<entry key="ClassColumnName" type="xstring" value="Sex"/>
+<config key="ClassColumnType">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="Threshold" type="xdouble" value="1.0E-4"/>
+<config key="SkippedAttributes">
+<entry key="SkippedAttributesCounter" type="xint" value="0"/>
+</config>
+<config key="AttributeModelSection">
+<entry key="AttributeModelCounter" type="xint" value="3"/>
+<config key="AttributeModelData_0">
+<entry key="attributeName" type="xstring" value="Height"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="2"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="f"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="5"/>
+<entry key="sum" type="xdouble" value="820.0"/>
+<entry key="squareSum" type="xdouble" value="134878.0"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="m"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="4"/>
+<entry key="sum" type="xdouble" value="716.0"/>
+<entry key="squareSum" type="xdouble" value="128408.0"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_1">
+<entry key="attributeName" type="xstring" value="Weight"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xint" value="2"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="f"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="5"/>
+<entry key="sum" type="xdouble" value="261.0"/>
+<entry key="squareSum" type="xdouble" value="13873.0"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="m"/>
+<entry key="MissingValCounter" type="xint" value="0"/>
+<entry key="noOfRows" type="xint" value="4"/>
+<entry key="sum" type="xdouble" value="321.0"/>
+<entry key="squareSum" type="xdouble" value="25891.0"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_2">
+<entry key="attributeName" type="xstring" value="Sex"/>
+<entry key="type" type="xstring" value="ClassModel"/>
+<entry key="skipMissingVals" type="xboolean" value="false"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="totalNoOfRecords" type="xint" value="9"/>
+<entry key="maxNoOfClassValues" type="xint" value="20"/>
+<config key="classValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="f"/>
+<entry key="1" type="xstring" value="m"/>
+</config>
+<config key="classRecordCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="5"/>
+<entry key="1" type="xint" value="4"/>
+</config>
+</config>
+</config>
+</config>
+</config>

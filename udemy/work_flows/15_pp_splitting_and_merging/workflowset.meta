@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">&lt;unknown></met:element>
+  <met:element form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</met:element>
+  <met:element form="multiline" name="Comments">Shopping Basket Generation
+
+Show how to generate the whole shopping basket. How to use existing informations for it
+and how everything can finally be exported for mining.
+
+URL: (Description of the modular data generation plugin) https://www.knime.org/the-new-iris-data-modular-data-generators 
+URL: (Paper about the data generation plugin) https://www.uni-konstanz.de/mmsp/pubsys/publishedFiles/AdBe10.pdf</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2016-08-19 10:36:36 +0000</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2015-12-09 15:36:27 +0100</met:element>
+</met:KNIMEMetaInfo>

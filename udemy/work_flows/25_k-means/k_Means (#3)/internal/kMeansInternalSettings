@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+<entry key="dimensions" type="xint" value="4"/>
+<entry key="ignoredColumns" type="xint" value="0"/>
+<config key="clusterCoverage">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="32"/>
+<entry key="1" type="xint" value="41"/>
+<entry key="2" type="xint" value="50"/>
+<entry key="3" type="xint" value="27"/>
+</config>
+<config key="kMeansCluster0">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="6.9125000000000005"/>
+<entry key="1" type="xdouble" value="3.099999999999999"/>
+<entry key="2" type="xdouble" value="5.846874999999999"/>
+<entry key="3" type="xdouble" value="2.1312499999999996"/>
+</config>
+<config key="kMeansCluster1">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="6.23658536585366"/>
+<entry key="1" type="xdouble" value="2.8585365853658535"/>
+<entry key="2" type="xdouble" value="4.807317073170731"/>
+<entry key="3" type="xdouble" value="1.6219512195121943"/>
+</config>
+<config key="kMeansCluster2">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="5.005999999999999"/>
+<entry key="1" type="xdouble" value="3.4180000000000006"/>
+<entry key="2" type="xdouble" value="1.464"/>
+<entry key="3" type="xdouble" value="0.2439999999999999"/>
+</config>
+<config key="kMeansCluster3">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="5.529629629629629"/>
+<entry key="1" type="xdouble" value="2.6222222222222222"/>
+<entry key="2" type="xdouble" value="3.940740740740741"/>
+<entry key="3" type="xdouble" value="1.2185185185185188"/>
+</config>
+<config key="FeatureNames">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Col0"/>
+<entry key="1" type="xstring" value="Col1"/>
+<entry key="2" type="xstring" value="Col2"/>
+<entry key="3" type="xstring" value="Col3"/>
+</config>
+</config>
